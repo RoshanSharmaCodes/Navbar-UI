@@ -1,0 +1,70 @@
+*{
+	margin: 0px;
+}
+
+.Navbar{
+display: flex;
+background-color: #750550;
+height: 60px;
+width: 100%;
+align-items: center;
+position: fixed;
+}
+
+.left{
+	flex: 3;
+	display: flex;
+}
+
+.right{
+	flex: 4;
+}
+
+ul{
+	list-style: none;
+	font-family: sans-serif;
+	font-size: 25px;
+	color: white;
+}
+
+li{
+	display: inline;
+	margin: 10px;
+	height: 60px;
+	padding: 18px;
+}
+
+li:hover{
+	background-color: white;
+	color: #750550 ;
+}
+
+.bt-login{
+ border: 2px solid white;
+ background-color: #750550 ;
+ border-radius: 10px;
+ font-family: sans-serif;
+ color: white;
+ float: right;
+ margin-right: 20px;
+ font-size: 20px;
+ width: 100px;
+ height: 40px;
+}
+
+.bt-login:hover{
+	background-color: white;
+	color:#750550 ;
+	cursor: pointer;
+}
+
+.main{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 1530px;
+	height: 1200px;
+	font-size: 60px;
+	font-family: sans-serif;
+	color: #750550 ;
+}
